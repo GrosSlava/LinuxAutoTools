@@ -12,4 +12,4 @@ source $SCRIPT_DIR/Modules/ToolsCommon.sh
 
 
 getxterm
-exec "$gxtpath" "$gxttitle" "APT_GET_INSTALL" "$gxtexec" /bin/bash "$SCRIPT_DIR/Private/__APT_GET_INSTALL.sh"
+exec "$gxtpath" "$gxttitle" "Update system" "$gxtexec" /bin/bash "$SCRIPT_DIR/Private/__UpdateSystem.sh"

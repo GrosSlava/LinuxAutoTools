@@ -4,10 +4,6 @@ This repo contains helper scripts and tools for new Linux users.
 Most of them use native Linux terminal commands, but wrap it into simple user interface.  
 
 
-## Requirements
-
-- zenity
-
 ## How to use
 
 Double click on selected script and follow runtime instruction.
@@ -21,3 +17,4 @@ Scripts:
 - CHANGE_OWN - change directory owner and group
 - RUN_PROGRAM - start any program or python script
 - SetupLinux - initial system setup(install needed tools, update system)
+- UpdateSytem - download and apply system update

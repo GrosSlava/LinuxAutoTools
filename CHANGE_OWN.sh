@@ -4,8 +4,8 @@
 SCRIPT_PATH=`realpath "$0"`
 SCRIPT_DIR=`dirname "$SCRIPT_PATH"`
 
-source $SCRIPT_DIR/Private/CheckPlatform.sh
-source $SCRIPT_DIR/Private/ToolsCommon.sh
+source $SCRIPT_DIR/Modules/CheckPlatform.sh
+source $SCRIPT_DIR/Modules/ToolsCommon.sh
 
 
 
