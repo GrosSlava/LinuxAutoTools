@@ -19,6 +19,9 @@ sudo apt-get install -y git git-lfs
 # download developer tools
 sudo apt-get install -y wget build-essential make python3 pip doxygen
 
+# download wine
+sudo apt-get install wine wine32 libwine
+
 # user tools
 sudo apt-get install -y zenity
 

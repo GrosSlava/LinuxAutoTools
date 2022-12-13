@@ -21,6 +21,8 @@ cd $(dirname $(readlink -f "$LFile"))
 
 if test "${LFile##*.}" == "py" ; then
 	python3 $LFile
+elif test "${LFile##*.}" == "exe" ; then
+	wine $LFile
 else
 	$LFile
 fi
