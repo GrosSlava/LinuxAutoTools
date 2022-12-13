@@ -22,7 +22,7 @@ case $? in
 	-1) exit 0;;
 esac
 
-echo $LPassword | sudo -S apt install -y $LFile &&
+echo $LPassword | sudo -S apt install -y "$LFile" &&
 {
 	$(zenity --info --text="'$LFile' successfully installed")
 	exit 0

@@ -34,7 +34,7 @@ if test "$LNewGroup" == "root" ; then
 	LOwner="root"
 fi
 
-echo $LPassword | sudo -S chown -R $LOwner:$LNewGroup $LFile &&
+echo $LPassword | sudo -S chown -R $LOwner:$LNewGroup "$LFile" &&
 {
 	$(zenity --info --text="'$LNewGroup' group successfully set")
 	exit 0
