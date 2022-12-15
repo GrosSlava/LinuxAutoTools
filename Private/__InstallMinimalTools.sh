@@ -15,9 +15,10 @@ sudo apt-get install -y autoremove autoclean
 
 # download git
 sudo apt-get install -y git git-lfs
+sudo git lfs install
 
 # download developer tools
-sudo apt-get install -y wget build-essential make python3 pip doxygen
+sudo apt-get install -y wget build-essential make python3 pip doxygen clang
 
 # download wine
 sudo apt-get install wine wine32 libwine
