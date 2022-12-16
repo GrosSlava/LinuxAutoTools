@@ -1,18 +1,16 @@
 
 //..................Intermediate folders...................//
 
-**Build
-**Intermediate
-**.vs
+# Python intermediate folders
+**.env
+**.venv
+**env
+**venv
+**ENV
+**env.bak
+**venv.bak
+**__pycache__
 
-//.........................................................//
-
-
-//..................Intermediate files.....................//
-
-*.user
-*.generated*
-*.obj
-*.o
+**.Trash-*
 
 //.........................................................//
