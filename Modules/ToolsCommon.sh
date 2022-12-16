@@ -1,3 +1,7 @@
+# Copyright (c) 2022 GrosSlava
+
+
+
 
 # Deal with differing "which" semantics
 mywhich()

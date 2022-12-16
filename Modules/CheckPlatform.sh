@@ -1,3 +1,7 @@
+# Copyright (c) 2022 GrosSlava
+
+
+
 
 ostype=`uname -s`
 if test "$ostype" != "Linux" ; then
