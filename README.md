@@ -18,3 +18,5 @@ Scripts:
 - RUN_PROGRAM - start any program or python script
 - SetupLinux - initial system setup(install needed tools, update system)
 - UpdateSytem - download and apply system update
+- OpenUEProject - open .uproject file in the UE4/5 editor
+- GenerateUEProjectFiles - run UE tool to generate files for selected project
