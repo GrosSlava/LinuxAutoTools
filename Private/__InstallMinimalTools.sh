@@ -18,7 +18,7 @@ sudo apt-get install -y git git-lfs
 sudo git lfs install
 
 # download developer tools
-sudo apt-get install -y wget build-essential make python3 pip doxygen clang
+sudo apt-get install -y wget build-essential make python3 python3-pip python3-venv doxygen clang
 
 # download wine
 sudo apt-get install wine wine32 libwine
