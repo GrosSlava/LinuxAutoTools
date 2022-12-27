@@ -1,6 +1,6 @@
 # LinuxAutoTools
 
-This repo contains helper scripts and tools for new Linux users.
+This repo contains helper scripts and tools for new Linux users. \
 Most of them use native Linux terminal commands, but wrap it into simple user interface.
 
 
